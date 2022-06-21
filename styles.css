@@ -1,0 +1,191 @@
+/* Note: Import all the fonts in regular weight(400)  */
+/* Iteration 1: Downlaod "alex brush" font from  https://www.fontsquirrel.com/ and import here */
+@font-face {
+  font-family: "alex_brushregular";
+  src: url("fonts/alexbrush-regular-webfont.woff2") format("woff2"),
+    url("fonts/alexbrush-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Iteration 2: Import following fonts from https://fonts.google.com/ in head of HTML
+                1. Audiowide
+                2. Fascinate
+                3. Fredericka the Great
+                4. Great Vibes
+                5. Monoton
+                6. Mr Dafoe
+                7. Press Start 2P
+                8. Unica One */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 3em;
+}
+
+body {
+  text-align: center;
+  background-image: url("./images/pic1.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  /* Iteration 3: Give it a font of "alex brush"(downloaded one) */
+  font-family: "alex_brushregular", serif;
+  font-size: 5em;
+  color: #fff;
+}
+
+.main {
+  display: flex;
+}
+
+.tattoo-left {
+  position: relative;
+  max-width: 415px;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 6px 50px rgba(217, 229, 255, 0.7);
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 38px;
+  padding-bottom: 38px;
+  margin: 5em;
+}
+
+.tattoo-left h3 {
+  font-size: 35px;
+}
+
+.form-title {
+  color: #30507d;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 38px;
+}
+
+.form-field {
+  margin-bottom: 20px;
+}
+
+label {
+  font-family: "Audiowide", cursive;
+}
+
+input {
+  height: 45px;
+  width: 70%;
+  color: #3b5983;
+  font-size: 14px;
+  line-height: 16px;
+  border: 2px solid #e9f2ff;
+  border-radius: 5px;
+  padding-left: 25px;
+}
+
+select {
+  height: 45px;
+  width: 40%;
+  color: #3b5983;
+  font-size: 14px;
+  line-height: 16px;
+  border: 2px solid #e9f2ff;
+  border-radius: 5px;
+}
+
+.button {
+  width: 100%;
+  font-weight: bold;
+  font-size: 14px;
+  display: block;
+  height: 45px;
+  background: #247fff;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 45px;
+  cursor: pointer;
+  border: none;
+}
+
+.button:hover {
+  background-color: #0d6cf2;
+}
+
+a.button {
+  text-decoration: none;
+}
+
+.tattoo-right-display {
+  position: relative;
+  max-width: 550px;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 6px 50px rgba(217, 229, 255, 0.7);
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 38px;
+  padding-bottom: 38px;
+  margin: 5em;
+}
+
+#display-text {
+  font-size: 5rem;
+}
+
+.UnicaOne {
+  /* Iteration 4: Give this class a font of "Unica One" */
+  font-family: "Unica One", cursive;
+}
+
+.PressStart {
+  /* Iteration 5: Give this class a font of "Press Start 2p" */
+  font-family: "Press Start 2P", cursive;
+}
+
+.MrDafoe {
+  /* Iteration 6: Give this class a font of "Mr Dafoe" */
+  font-family: "Mr Dafoe", cursive;
+}
+
+.Monoton {
+  /* Iteration 7: Give this class a font of "Monoton" */
+  font-family: "Monoton", cursive;
+}
+
+.GreatVibes {
+  /* Iteration 8: Give this class a font of "Great Vibes" */
+  font-family: "Great Vibes", cursive;
+}
+
+.Fredericka {
+  /* Iteration 9: Give this class a font of "Fredericka the Great" */
+  font-family: "Fredericka the Great", cursive;
+}
+
+.FascinateInline {
+  /* Iteration 10: Give this class a font of "Fascinate Inline" */
+  font-family: "Fascinate Inline", cursive;
+}
+
+.Audiowide {
+  /* Iteration 11: Give this class a font of "Audiowide" */
+  font-family: "Audiowide", cursive;
+}
+
+.none {
+  /* Iteration 8: Give this class a font of "sans-serif" */
+  font-family: sans-serif;
+}
+

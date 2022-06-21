@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>webFonts</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&family=Fascinate+Inline&family=Fredericka+the+Great&family=Great+Vibes&family=Monoton&family=Mr+Dafoe&family=Press+Start+2P&family=Unica+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Tattoo Shop</h1>
+    </header>
+
+    <!-- body start -->
+    <div class="main">
+
+      <!--tattoo-info -->
+      <div class="tattoo-left">
+        <form action="">
+          <h3 class="form-title">Choose your tattoo</h3>
+
+          <div class="form-fields">
+            <div class="form-field">
+              <label for="Input-text">Enter text</label>
+              <input
+                id="Input-text"
+                name="InputText"
+                type="text"
+                placeholder="Enter some text"
+                required
+              />
+            </div>
+
+            <div class="form-field">
+              <label for="font">Choose Your Font: </label>
+              <select name="font" id="font">
+                <option value="none">sans sarif</option>
+                <option value="Fascinate">Fascinate</option>
+                <option value="GreatVibes">Great Vibes</option>
+                <option value="PressStart">Press Start 2P</option>
+                <option value="Monoton">Monoton</option>
+                <option value="UnicaOne">Unica One</option>
+                <option value="Audiowide">Audiowide</option>
+                <option value="FascinateInline">Fredericka the Great</option>
+                <option value="MrDafoe">Mr Dafoe</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-buttons">
+            <input
+              class="button"
+              type="submit"
+              value="Get Me Tattoo"
+              name="submit"
+            />
+          </div>
+        </form>
+      </div>
+
+      <!-- tatoo display -->
+      <div class="tattoo-right">
+        <div class="tattoo-right-display">
+          <h3 id="display-text">Get your tattoo here!!</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- embedding javascript -->
+    <script src="index.js"></script>
+  </body>
+</html>
